@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5f4ed">
+  <title>Едем на Алтай! — семейный лагерь, 5–11 июня 2027</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="style.css?v=20261115-gallery">
+  <link rel="preload" as="image" href="assets/katun-hero.webp" media="(min-width: 701px)">
+  <link rel="preload" as="image" href="assets/katun-hero-mobile.webp" media="(max-width: 700px)">
+  <script src="script.js?v=20261115-gallery" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#about">Перейти к содержанию</a>
+  <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-up-right" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="m8 3 3 5-3 3c1 3 2 4 5 5l3-3 5 3-1 5C10 23 1 14 3 4Z"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V3H3v13h5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-mountains" viewBox="0 0 48 32"><path d="m2 29 15-23 10 15 7-12 12 20H2Z"/><path d="m11 15 6 2 5-3M29 17l5 1 4-3"/></symbol>
+    <symbol id="i-comfort-house" viewBox="0 0 48 48"><path d="M6 23 24 8l18 15M10 20v21h28V20"/><path d="M17 41V28h9v13"/><rect x="29" y="26" width="5" height="7" rx="1" fill="var(--lime)"/></symbol>
+    <symbol id="i-comfort-meal" viewBox="0 0 48 48"><circle cx="25" cy="25" r="12"/><circle cx="25" cy="25" r="7" fill="var(--lime)"/><path d="M4 10v8a4 4 0 0 0 8 0v-8M8 10v30M4 18h8M43 40V10c-5 4-6 10-6 16h6"/></symbol>
+    <symbol id="i-comfort-pool" viewBox="0 0 48 48"><path d="M10 32V12a4 4 0 0 1 8 0v4M25 32V12a4 4 0 0 1 8 0v4M10 21h15M10 28h15"/><path d="M5 35c3-3 6-3 9 0s6 3 9 0 6-3 9 0 6 3 11 0v6c-5 3-8 3-11 0s-6-3-9 0-6 3-9 0-6-3-9 0Z" fill="var(--lime)" stroke="none"/><path d="M5 35c3-3 6-3 9 0s6 3 9 0 6-3 9 0 6 3 11 0M5 41c3-3 6-3 9 0s6 3 9 0 6-3 9 0 6 3 11 0"/></symbol>
+    <symbol id="i-comfort-program" viewBox="0 0 48 48"><circle cx="16" cy="15" r="5" fill="var(--lime)"/><circle cx="34" cy="24" r="4"/><path d="M6 40v-6a10 10 0 0 1 20 0v6M26 40v-4a8 8 0 0 1 16 0v4"/><path d="m35 5 1.5 4.5L41 11l-4.5 1.5L35 17l-1.5-4.5L29 11l4.5-1.5Z" fill="var(--lime)"/></symbol>
+  </svg>
+
+  <header class="site-header" id="header">
+    <a class="brand" href="#top" aria-label="Едем на Алтай — в начало">
+      <svg class="brand-mark" aria-hidden="true"><use href="#i-mountains"/></svg>
+      <span>Едем на Алтай<span class="brand-exclamation">!</span></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Основная навигация">
+      <a href="#program">Программа</a><a href="#place">Где живём</a><a href="#memories">Наши встречи</a><a href="#cost">Стоимость</a>
+    </nav>
+    <a class="header-cta" href="#contacts">Хочу с вами <svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></a>
+    <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Мобильная навигация" hidden>
+      <a href="#about">О лагере</a><a href="#program">Программа</a><a href="#day">Наш день</a><a href="#place">Где живём</a><a href="#memories">Наши встречи</a><a href="#cost">Стоимость</a><a href="#contacts">Связаться с нами <svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <picture class="hero-landscape"><source media="(max-width: 700px)" srcset="assets/katun-hero-mobile.webp"><img src="assets/katun-hero.webp" alt="Летняя долина Катуни с извилистой рекой и зелёными горными склонами" width="1536" height="1024" fetchpriority="high"></picture>
+      <div class="hero-shade"></div>
+      <div class="hero-content shell">
+        <h1 id="hero-title">Едем на<br><em>Алтай!</em></h1>
+        <p class="hero-format">Семейный лагерь <span>мама + ребёнок</span></p>
+        <p class="hero-description">Отдых, приключение, развитие и новые знакомства для мам и детей</p>
+        <div class="hero-bottom">
+          <a class="button button-lime" href="#cost">Узнать цену <svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></a>
+          <p class="hero-date">5–11 июня 2027<span>Усадьба Ярцевых</span></p>
+        </div>
+      </div>
+      <a class="hero-snapshot" href="#memories" aria-label="Посмотреть фотографии наших встреч">
+        <img src="assets/company-2026-small.webp" alt="Мамы и дети на общей фотографии прошлой поездки" width="640" height="360">
+        <span>А это мы. Будем знакомы! <svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></span>
+      </a>
+      <a class="hero-scroll" href="#about" aria-label="Узнать больше о лагере"><span>Дальше — лето</span><span class="scroll-line"></span></a>
+    </section>
+
+    <section class="about section shell" id="about" aria-labelledby="about-title">
+      <div class="about-heading reveal">
+        <h2 id="about-title">Время вместе.<br>Время <em>для себя.</em></h2>
+        <svg class="about-sun" viewBox="0 0 80 80" fill="none" aria-hidden="true"><circle cx="40" cy="40" r="16"/><path d="M40 2v12M40 66v12M2 40h12M66 40h12M13 13l9 9M58 58l9 9M13 67l9-9M58 22l9-9"/></svg>
+      </div>
+      <div class="about-copy reveal">
+        <p class="lead">Не нужно выбирать между отдыхом с ребёнком и отдыхом для себя.</p>
+        <p>На Алтае у каждого будет своё маленькое приключение. Пока дети танцуют, играют и творят с педагогами, мамы переключаются, пробуют новое и отдыхают. А потом мы снова вместе — за обедом, на прогулке и тёплым летним вечером.</p>
+        <a class="text-link" href="#program">Как всё устроено <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+      <figure class="about-trip-photo"><a href="#memories"><img src="assets/company-2026-small.webp" alt="Наша большая компания: мамы и дети на прошлой поездке" width="640" height="360" loading="lazy"></a><figcaption><a href="#memories">Наша компания в прошлой поездке <svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></a></figcaption></figure>
+      <div class="comfort-list">
+        <div><svg class="comfort-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><use href="#i-comfort-house"/></svg><p class="advantage-text">Домики с кондиционером и мини-кухней</p></div>
+        <div><svg class="comfort-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><use href="#i-comfort-meal"/></svg><p class="advantage-text">Вкусное трёхразовое питание</p></div>
+        <div><svg class="comfort-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><use href="#i-comfort-pool"/></svg><p class="advantage-text">Подогреваемый бассейн с горками</p></div>
+        <div><svg class="comfort-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><use href="#i-comfort-program"/></svg><p class="advantage-text">Насыщенная программа для мам и детей</p></div>
+      </div>
+    </section>
+
+    <section class="program section" id="program" aria-labelledby="program-title">
+      <div class="shell">
+        <div class="section-heading reveal"><h2 id="program-title">У каждого —<br>своё <em>«как здорово!»</em></h2><p>Две программы, чтобы всем было интересно.<br>И много поводов собраться вместе.</p></div>
+        <div class="program-grid">
+          <article class="program-story children-story reveal">
+            <div class="story-image"><img src="assets/creative.webp" srcset="assets/creative-small.webp 640w, assets/creative.webp 1200w" sizes="(max-width: 700px) 100vw, 45vw" alt="Дети увлечённо рисуют красками за общим столом" width="960" height="1280" loading="lazy"><span class="photo-caption">Маленькие открытия каждый день</span></div>
+            <div class="story-copy"><h3>Детям — <em>приключения</em></h3><p>Новые друзья, внимательные педагоги и возможность попробовать то, чего ещё никогда не делал.</p><ul class="activity-list"><li>Хореография</li><li>Творческие мастерские</li><li>Игры и командные активности</li><li>Образовательные занятия</li><li>Выступления и творческие проекты</li></ul></div>
+          </article>
+          <article class="program-story mothers-story reveal">
+            <div class="story-image"><img src="assets/workshop.webp" srcset="assets/workshop-small.webp 640w, assets/workshop.webp 1200w" sizes="(max-width: 700px) 100vw, 45vw" alt="Мамы общаются во время совместного мастер-класса" width="1200" height="900" loading="lazy"><span class="photo-caption">Можно просто побыть собой</span></div>
+            <div class="story-copy"><h3>Мамам — <em>вдохновение</em></h3><p>Время, которое можно посвятить себе. Двигаться, создавать, общаться или просто никуда не торопиться.</p><ul class="activity-list"><li>Тренировки и физические практики</li><li>Мастер-классы и творчество</li><li>Психологические встречи</li><li>Общение и новые знакомства</li><li>Свободное время и отдых</li></ul></div>
+          </article>
+        </div>
+        <div class="together-story reveal">
+          <div class="together-image"><img src="assets/party.webp" srcset="assets/party-small.webp 640w, assets/party.webp 1200w" sizes="(max-width: 700px) 100vw, 50vw" alt="Общий праздник с детьми и мамами на открытой веранде" width="1200" height="900" loading="lazy"></div>
+          <div class="together-copy"><h3>А самое тёплое —<br><em>вместе.</em></h3><p>Вечерние мероприятия, праздники, игры и совместные активности. И заключительный концерт, в котором у каждого будет своя роль.</p><span class="handwritten">Вот ради таких моментов и едем.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="day section shell" id="day" aria-labelledby="day-title">
+      <div class="day-intro reveal"><h2 id="day-title">Один день.<br>Много <em>маленького счастья.</em></h2><p>У нас есть план. А ещё — время на отдых, разговоры и «мам, смотри!»</p><figure class="day-photo"><img src="assets/friends-small.webp" alt="Дети сидят вместе на веранде после занятий" width="640" height="850" loading="lazy"><figcaption>Планы на день: подружиться.</figcaption></figure></div>
+      <div class="schedule reveal">
+        <div class="schedule-row"><span class="schedule-time">Утро</span><div><h3>Просыпаемся и двигаемся</h3><p>Общая зарядка или практика, затем завтрак всей семьёй.</p></div></div>
+        <div class="schedule-row"><span class="schedule-time">До обеда</span><div><h3>Каждому — своё</h3><p>Дети идут на свою программу, мамы — на занятия для себя.</p></div></div>
+        <div class="schedule-row"><span class="schedule-time">Обед</span><div><h3>Никуда не спешим</h3><p>Вкусно едим, отдыхаем и набираемся сил.</p></div></div>
+        <div class="schedule-row"><span class="schedule-time">После обеда</span><div><h3>Пробуем новое</h3><p>Мастер-классы, тренировки и творческие занятия.</p></div></div>
+        <div class="schedule-row"><span class="schedule-time">Ужин</span><div><h3>Снова за общим столом</h3><p>Ужинаем всей семьёй и делимся впечатлениями дня.</p></div></div>
+        <div class="schedule-row"><span class="schedule-time">Вечер</span><div><h3>Снова все вместе</h3><p>Совместные мероприятия, игры и свободное время перед сном.</p></div></div>
+        <p class="schedule-note">Это пример дня. Расписание может меняться в зависимости от программы и погоды.</p>
+      </div>
+    </section>
+
+    <section class="landscape-break" aria-label="Природа Алтая">
+      <img src="assets/altai-meadow.webp" alt="Золотистый вечерний свет над лесами и горной долиной — пейзаж по мотивам Алтая" width="1536" height="1024" loading="lazy">
+      <div class="landscape-break-copy"><p>Вдохнуть поглубже.<br><em>Вы уже на Алтае.</em></p></div>
+    </section>
+
+    <section class="place section shell" id="place" aria-labelledby="place-title">
+      <div class="section-heading reveal"><h2 id="place-title">Наш дом<br><em>среди гор.</em></h2><div><p class="place-name">Усадьба Ярцевых</p><p>На неделю усадьба станет нашим общим домом.<br>Здесь встречаемся за завтраком, отдыхаем<br>и наполняем каждый день впечатлениями.</p></div></div>
+      <article class="stay-topic" aria-labelledby="stay-houses-title">
+        <div class="stay-topic-heading"><h3 id="stay-houses-title">Уютные домики</h3><p>Отдельные благоустроенные домики с кондиционером и мини-кухней. Внутри — спальня и свой санузел с душевой.</p></div>
+        <div class="stay-topic-gallery" data-gallery-rail="houses" aria-label="Уютные домики">
+            <figure><button type="button" class="stay-photo" data-photo="assets/stay-house-front.webp" data-group="houses" data-caption="Домик с верандой" aria-label="Рассмотреть: домик с верандой"><img src="assets/stay-house-front-small.webp" alt="Вход в отдельный светлый домик среди зелени" width="640" height="443" loading="lazy"><span class="expand-photo"><svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></span></button><figcaption>Домик с верандой</figcaption></figure>
+            <figure><button type="button" class="stay-photo" data-photo="assets/stay-room-kitchen.webp" data-group="houses" data-caption="Спальня и мини-кухня" aria-label="Рассмотреть: спальня и мини-кухня"><img src="assets/stay-room-kitchen-small.webp" alt="Спальная зона и мини-кухня с холодильником в домике" width="640" height="853" loading="lazy"><span class="expand-photo"><svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></span></button><figcaption>Спальня и мини-кухня</figcaption></figure>
+            <figure><button type="button" class="stay-photo" data-photo="assets/stay-bathroom.webp" data-group="houses" data-caption="Свой санузел" aria-label="Рассмотреть: свой санузел"><img src="assets/stay-bathroom-small.webp" alt="Санузел с душевой кабиной, раковиной и зеркалом" width="640" height="853" loading="lazy"><span class="expand-photo"><svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></span></button><figcaption>Свой санузел</figcaption></figure>
+        </div>
+        <div class="gallery-footer stay-topic-footer"><span>Уютные домики <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="gallery-controls"><button type="button" data-rail-prev="houses" aria-label="Предыдущие фото: уютные домики"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button><button type="button" data-rail-next="houses" aria-label="Следующие фото: уютные домики"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button></div></div>
+      </article>
+      <article class="stay-topic" aria-labelledby="stay-grounds-title">
+        <div class="stay-topic-heading"><h3 id="stay-grounds-title">Территория для отдыха</h3><p>Подогреваемый бассейн с горками, зелёные уголки, терраса и пространства для детских игр. Есть где отдохнуть между занятиями.</p></div>
+        <div class="stay-topic-gallery" data-gallery-rail="grounds" aria-label="Территория для отдыха">
+            <figure><button type="button" class="stay-photo" data-photo="assets/stay-pool.webp" data-group="grounds" data-caption="Бассейн с подогревом и горками" aria-label="Рассмотреть: бассейн с подогревом и горками"><img src="assets/stay-pool-small.webp" alt="Открытый бассейн усадьбы с водными горками" width="640" height="427" loading="lazy"><span class="expand-photo"><svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></span></button><figcaption>Бассейн с подогревом и горками</figcaption></figure>
+            <figure><button type="button" class="stay-photo" data-photo="assets/stay-terrace.webp" data-group="grounds" data-caption="Летняя терраса" aria-label="Рассмотреть: летняя терраса"><img src="assets/stay-terrace-small.webp" alt="Крытая терраса с деревянным потолком и столами" width="640" height="853" loading="lazy"><span class="expand-photo"><svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></span></button><figcaption>Летняя терраса</figcaption></figure>
+            <figure><button type="button" class="stay-photo" data-photo="assets/stay-garden.webp" data-group="grounds" data-caption="Зелёные уголки" aria-label="Рассмотреть: зелёные уголки"><img src="assets/stay-garden-small.webp" alt="Садовая дорожка под цветущей аркой" width="640" height="960" loading="lazy"><span class="expand-photo"><svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></span></button><figcaption>Зелёные уголки</figcaption></figure>
+            <figure><button type="button" class="stay-photo" data-photo="assets/stay-playground.webp" data-group="grounds" data-caption="Детская площадка" aria-label="Рассмотреть: детская площадка"><img src="assets/stay-playground-small.webp" alt="Уличная игровая площадка с горками" width="640" height="853" loading="lazy"><span class="expand-photo"><svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></span></button><figcaption>Детская площадка</figcaption></figure>
+            <figure><button type="button" class="stay-photo" data-photo="assets/stay-playroom.webp" data-group="grounds" data-caption="Игровая комната" aria-label="Рассмотреть: игровая комната"><img src="assets/stay-playroom-small.webp" alt="Комната с креслами-мешками и стеной для лазания" width="640" height="960" loading="lazy"><span class="expand-photo"><svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></span></button><figcaption>Игровая комната</figcaption></figure>
+        </div>
+        <div class="gallery-footer stay-topic-footer"><span>Территория для отдыха <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="gallery-controls"><button type="button" data-rail-prev="grounds" aria-label="Предыдущие фото: территория для отдыха"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button><button type="button" data-rail-next="grounds" aria-label="Следующие фото: территория для отдыха"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button></div></div>
+      </article>
+      <article class="stay-topic" aria-labelledby="stay-meals-title">
+        <div class="stay-topic-heading"><h3 id="stay-meals-title">Вкусное питание</h3><p>Завтраки, обеды и ужины в столовой на территории базы. Вкусное трёхразовое питание уже включено в стоимость участия.</p></div>
+        <div class="stay-topic-gallery" data-gallery-rail="meals" aria-label="Вкусное питание">
+            <figure><button type="button" class="stay-photo" data-photo="assets/meal-breakfast.webp" data-group="meals" data-caption="Завтрак без хлопот" aria-label="Рассмотреть: завтрак без хлопот"><img src="assets/meal-breakfast-small.webp" alt="Накрытый стол с тарелками завтрака" width="640" height="853" loading="lazy"><span class="expand-photo"><svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></span></button><figcaption>Завтрак без хлопот</figcaption></figure>
+            <figure><button type="button" class="stay-photo" data-photo="assets/meal-egg.webp" data-group="meals" data-caption="Завтрак на свежем воздухе" aria-label="Рассмотреть: завтрак на свежем воздухе"><img src="assets/meal-egg-small.webp" alt="Завтрак на террасе: яйцо, блинчики и овощи" width="640" height="862" loading="lazy"><span class="expand-photo"><svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></span></button><figcaption>Завтрак на свежем воздухе</figcaption></figure>
+            <figure><button type="button" class="stay-photo" data-photo="assets/meal-coffee.webp" data-group="meals" data-caption="Пауза с чашкой кофе" aria-label="Рассмотреть: пауза с чашкой кофе"><img src="assets/meal-coffee-small.webp" alt="Чашка кофе на деревянной террасе среди зелени" width="640" height="853" loading="lazy"><span class="expand-photo"><svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></span></button><figcaption>Пауза с чашкой кофе</figcaption></figure>
+        </div>
+        <div class="gallery-footer stay-topic-footer"><span>Вкусное питание <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="gallery-controls"><button type="button" data-rail-prev="meals" aria-label="Предыдущие фото: вкусное питание"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button><button type="button" data-rail-next="meals" aria-label="Следующие фото: вкусное питание"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button></div></div>
+      </article>
+      <p class="stay-note">Конкретный домик и размещение уточняйте у организаторов лагеря.</p>
+      <div class="location-block reveal"><div class="location-copy"><h3>Встречаемся <em>вот здесь.</em></h3><p class="location-address">Республика Алтай, Чемальский район,<br>село Турбаза Катунь,<br><strong>улица Романтиков, 9</strong></p><a class="text-link" href="https://yandex.ru/maps/org/usadby_1/115527288099/?z=16" target="_blank" rel="noopener noreferrer">Открыть в Яндекс Картах <svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></a><p class="address-source">Адрес для приезда указан на <a href="https://tur-al.ru/kontakty/" target="_blank" rel="noopener noreferrer">сайте владельцев</a>.</p></div><div class="map-preview" id="map-preview"><iframe title="Усадьба Ярцевых на Яндекс Картах" src="https://yandex.ru/map-widget/v1/?ol=biz&amp;oid=115527288099&amp;ll=85.910229%2C51.546953&amp;z=16" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div></div>
+      <section class="nearby-feature" aria-labelledby="nearby-title">
+        <div class="nearby-heading"><div><h3 id="nearby-title">Алтай — <em>за порогом.</em></h3><p>Рядом - Турсиб, Сад Пионов, деревня Аскат и Лохматая ферма.</p></div><div class="nearby-distance"><strong>10 <em>минут</em></strong><span>неспешной прогулки<br>до Катуни</span></div></div>
+        <div class="nearby-gallery" data-gallery-rail="nearby" aria-label="Прогулки рядом с усадьбой">
+          <figure><button type="button" class="stay-photo" data-photo="assets/katun-guitar.webp" data-group="nearby" data-caption="Лето на берегу Катуни" aria-label="Рассмотреть: лето на берегу катуни"><img src="assets/katun-guitar-small.webp" alt="Сосны, река и гитара у берега" width="640" height="850" loading="lazy"><span class="expand-photo"><svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></span></button><figcaption>Лето на берегу Катуни</figcaption></figure>
+          <figure><button type="button" class="stay-photo" data-photo="assets/katun-bank.webp" data-group="nearby" data-caption="Неспешные прогулки" aria-label="Рассмотреть: неспешные прогулки"><img src="assets/katun-bank-small.webp" alt="Берег Катуни с сосной и видом на лесистую гору" width="640" height="850" loading="lazy"><span class="expand-photo"><svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></span></button><figcaption>Неспешные прогулки</figcaption></figure>
+          <figure><button type="button" class="stay-photo" data-photo="assets/katun-view.webp" data-group="nearby" data-caption="Катунь совсем рядом" aria-label="Рассмотреть: катунь совсем рядом"><img src="assets/katun-view-small.webp" alt="Река Катунь между соснами и зелёными горными склонами" width="640" height="850" loading="lazy"><span class="expand-photo"><svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></span></button><figcaption>Катунь совсем рядом</figcaption></figure>
+        </div>
+        <div class="gallery-footer stay-topic-footer"><span>Прогулки и открытия рядом <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="gallery-controls"><button type="button" data-rail-prev="nearby" aria-label="Предыдущие фото: прогулки и открытия рядом"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button><button type="button" data-rail-next="nearby" aria-label="Следующие фото: прогулки и открытия рядом"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button></div></div>
+      </section>
+    </section>
+
+    <section class="memories section" id="memories" aria-labelledby="memories-title">
+      <div class="shell section-heading reveal"><h2 id="memories-title">Лучше один раз<br><em>почувствовать.</em></h2><div><p>Это мы в прошлых поездках.<br>Немного творчества, много смеха<br>и люди, с которыми хорошо.</p><button class="text-link" type="button" data-video>Смотреть видео поездки <svg class="icon" aria-hidden="true"><use href="#i-play"/></svg></button></div></div>
+      <div class="photo-rail" aria-label="Галерея прошлых поездок">
+        <button class="gallery-photo gallery-tall" type="button" data-photo="assets/candy.webp" data-caption="Маленькие радости большого лета" aria-label="Открыть фото: девочка с сахарной ватой"><img src="assets/candy-small.webp" alt="Девочка с двумя облаками сахарной ваты" width="640" height="1138" loading="lazy"><span>Счастье — вот такого размера</span></button>
+        <button class="gallery-photo gallery-wide" type="button" data-photo="assets/company-2026.webp" data-caption="Наши люди. Наша большая компания." aria-label="Открыть общую фотографию"><img src="assets/company-2026-small.webp" alt="Общая фотография мам и детей на фоне гор" width="640" height="360" loading="lazy"><span>Вместе — целая история</span></button>
+        <button class="gallery-photo gallery-tall" type="button" data-photo="assets/cooking.webp" data-caption="Мастер-класс, который можно попробовать на вкус" aria-label="Открыть фото кулинарного мастер-класса"><img src="assets/cooking-small.webp" alt="Дети в поварских колпаках готовят на мастер-классе" width="640" height="1138" loading="lazy"><span>Шеф-повара на каникулах</span></button>
+        <button class="gallery-photo gallery-tall" type="button" data-photo="assets/foam.webp" data-caption="Побольше пены, пожалуйста!" aria-label="Открыть фото пенной вечеринки"><img src="assets/foam-small.webp" alt="Дети веселятся на пенной вечеринке" width="640" height="850" loading="lazy"><span>И пусть весь мир подождёт</span></button>
+        <button class="gallery-photo gallery-tall" type="button" data-photo="assets/meal-refreshment.webp" data-caption="Летняя пауза у бассейна" aria-label="Открыть фото: летняя пауза у бассейна"><img src="assets/meal-refreshment-small.webp" alt="Освежающий напиток на фоне бассейна" width="640" height="853" loading="lazy"><span>Летняя пауза у бассейна</span></button>
+        <button class="gallery-photo gallery-wide" type="button" data-photo="assets/practice.webp" data-caption="Двигаемся, пробуем, поддерживаем друг друга" aria-label="Открыть фото занятий"><img src="assets/practice-small.webp" alt="Совместная тренировка детей на веранде" width="640" height="360" loading="lazy"><span>У каждого что-то получается</span></button>
+        <button class="gallery-photo gallery-tall" type="button" data-photo="assets/sunset.webp" data-caption="Вечера, которые хочется забрать с собой" aria-label="Открыть фото вечернего Алтая"><img src="assets/sunset-small.webp" alt="Река среди гор в розовом вечернем свете" width="640" height="1138" loading="lazy"><span>До завтра, Алтай</span></button>
+        <button class="gallery-photo gallery-tall" type="button" data-photo="assets/workshop.webp" data-caption="Мастер-класс для мам" aria-label="Открыть фото: мастер-класс для мам"><img src="assets/workshop-small.webp" alt="Мамы вместе за большим столом на мастер-классе" width="640" height="850" loading="lazy"><span>Время для себя и новых идей</span></button>
+        <button class="gallery-photo gallery-tall" type="button" data-photo="assets/mountain-friends.webp" data-caption="После насыщенного дня" aria-label="Открыть фото: после насыщенного дня"><img src="assets/mountain-friends-small.webp" alt="Участники поездки на ступенях открытой веранды на фоне гор" width="640" height="850" loading="lazy"><span>В хорошей компании</span></button>
+        <button class="gallery-photo gallery-tall" type="button" data-photo="assets/handmade.webp" data-caption="Сделано своими руками" aria-label="Открыть фото: сделано своими руками"><img src="assets/handmade-small.webp" alt="Материалы и маленькие творческие работы участников лагеря" width="640" height="850" loading="lazy"><span>Маленькие шедевры</span></button>
+        <button class="gallery-photo gallery-tall" type="button" data-photo="assets/hands.webp" data-caption="Одна большая команда" aria-label="Открыть фото: одна большая команда"><img src="assets/hands-small.webp" alt="Участники складывают руки вместе в дружеский круг" width="640" height="850" loading="lazy"><span>Мы вместе</span></button>
+        <button class="gallery-photo gallery-tall" type="button" data-photo="assets/painting.webp" data-caption="Творческое настроение" aria-label="Открыть фото: творческое настроение"><img src="assets/painting-small.webp" alt="Мама с ребёнком рисуют за общим столом" width="640" height="850" loading="lazy"><span>Создавать что-то вместе</span></button>
+        <button class="gallery-photo gallery-tall" type="button" data-photo="assets/evening.webp" data-caption="Летний вечер в хорошей компании" aria-label="Открыть фото: летний вечер в хорошей компании"><img src="assets/evening-small.webp" alt="Мамы вместе на веранде тёплым летним вечером" width="640" height="850" loading="lazy"><span>Наши летние вечера</span></button>
+        <button class="gallery-photo gallery-tall" type="button" data-photo="assets/friends.webp" data-caption="Новые друзья и сотня тем для разговоров" aria-label="Открыть фото: новые друзья и сотня тем для разговоров"><img src="assets/friends-small.webp" alt="Дети сидят рядом на веранде после занятий" width="640" height="850" loading="lazy"><span>Дружба начинается здесь</span></button>
+        <button class="gallery-photo gallery-wide" type="button" data-photo="assets/party.webp" data-caption="Праздник нашего общего лета" aria-label="Открыть фото: праздник нашего общего лета"><img src="assets/party-small.webp" alt="Большая компания мам и детей на празднике с конфетти" width="640" height="850" loading="lazy"><span>Повод улыбнуться всем вместе</span></button>
+        <button class="gallery-photo gallery-wide" type="button" data-photo="assets/pool.webp" data-caption="Время у бассейна" aria-label="Открыть фото: время у бассейна"><img src="assets/pool-small.webp" alt="Участники отдыхают у открытого бассейна на базе" width="640" height="850" loading="lazy"><span>Купаться и радоваться лету</span></button>
+        <button class="gallery-photo gallery-tall" type="button" data-photo="assets/dance.webp" data-caption="Когда все танцуют" aria-label="Открыть фото: когда все танцуют"><img src="assets/dance-small.webp" alt="Мамы и дети вместе на танцевальном занятии" width="640" height="850" loading="lazy"><span>Танцевать можно всем</span></button>
+        <button class="gallery-photo gallery-tall" type="button" data-photo="assets/lunch.webp" data-caption="Аппетит после приключений" aria-label="Открыть фото: аппетит после приключений"><img src="assets/lunch-small.webp" alt="Ребёнок за столом во время обеда в лагере" width="640" height="850" loading="lazy"><span>Вкусная пауза</span></button>
+        <button class="gallery-photo gallery-tall" type="button" data-photo="assets/movement.webp" data-caption="Движение в радость" aria-label="Открыть фото: движение в радость"><img src="assets/movement-small.webp" alt="Совместное занятие с тренером на открытой веранде" width="640" height="850" loading="lazy"><span>Пробуем, двигаемся, поддерживаем</span></button>
+      </div>
+      <div class="shell gallery-footer"><span>Листайте фотографии <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="gallery-controls"><button type="button" data-gallery-prev aria-label="Предыдущие фотографии"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button><button type="button" data-gallery-next aria-label="Следующие фотографии"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button></div></div>
+    </section>
+
+    <section class="cost section shell" id="cost" aria-labelledby="cost-title">
+      <div class="cost-heading"><h2 id="cost-title"><span>Планы на лето?</span> <em>Теперь есть.</em></h2><p class="cost-period"><span>5–11 июня</span> <span>2027</span></p></div>
+      <div class="reference-prices">
+        <article class="reference-price reference-price-main"><h3>Мама + ребёнок · отдельный домик</h3><p class="reference-amount">89 000 <span>₽</span></p><p class="reference-description">За двоих в отдельном домике.</p></article>
+        <article class="reference-price reference-price-extra"><h3>Дополнительное место</h3><p class="reference-amount">25 000 <span>₽</span></p><p class="reference-description">Стоимость за одного дополнительного участника.</p></article>
+        <aside class="reference-saving" aria-labelledby="saving-title"><h3 id="saving-title"><svg class="reference-bulb" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 21h4M8.6 14.5a6 6 0 1 1 6.8 0c-.9.6-1.4 1.7-1.4 2.5h-4c0-.8-.5-1.9-1.4-2.5Z"/></svg><span>Лайфхак: можно объединиться с другой мамой!</span></h3><p class="reference-saving-copy">Приезжайте двумя семьями и живите вместе в одном домике.</p><p class="reference-saving-total">69 500 ₽ <span>за двоих</span></p><p class="reference-saving-pair">(мама + ребёнок) при 4-местном размещении.</p></aside>
+      </div>
+      <p class="cost-included"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span>Проживание, трёхразовое питание и программы включены.</span></p>
+      <div class="cost-footer"><a class="button button-lime" href="#contacts">Хочу поехать <svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></a><p class="cost-transfer">Трансфер оплачивается отдельно.</p></div>
+    </section>
+
+    <section class="questions section shell" aria-labelledby="questions-title"><h2 id="questions-title" class="reveal">Возможно,<br>вы <em>хотели спросить.</em></h2><div class="faq-list reveal">
+      <details><summary>Мы всё время будем вместе с ребёнком?<svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>В лагере две программы. Дети занимаются с педагогами и сверстниками, а у мам в это время свои занятия и отдых. Вечерние мероприятия, праздники, игры и общие активности мы проводим вместе.</p></details>
+      <details><summary>Как мы будем жить и питаться?<svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>В благоустроенных домиках Усадьбы Ярцевых с кондиционером и мини-кухней. Трёхразовое питание в столовой на территории включено в стоимость. Есть вариант жить двумя семьями в одном домике.</p></details>
+      <details><summary>Что входит в стоимость?<svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Проживание на время заезда, завтраки, обеды, ужины и программы для мам и детей. Трансфер оплачивается отдельно. Остальные детали уточняйте у Марии или Ларисы.</p></details>
+      <details><summary>С какого возраста можно ехать с ребёнком?<svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Программа рассчитана на детей от 3 лет. Если ребёнок младше, вы сможете посещать мероприятия вместе с ним.</p></details>
+    </div></section>
+
+    <section class="contacts section" id="contacts" aria-labelledby="contacts-title"><div class="shell">
+      <div class="contact-intro reveal"><h2 id="contacts-title">Давайте <em>поедем.</em></h2><p>Задайте вопросы или запишитесь в лагерь.<br>Мы на связи в Telegram, MAX и WhatsApp.</p></div>
+      <div class="contact-people reveal">
+        <article class="contact-person"><div class="person-top"><h3>Мария</h3><a href="tel:+79137183971" class="phone-number">+7 913 718-39-71 <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></a></div><div class="messenger-links"><a href="https://t.me/+79137183971" target="_blank" rel="noopener noreferrer">Telegram <svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></a><a href="https://wa.me/79137183971" target="_blank" rel="noopener noreferrer">WhatsApp <svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></a><button type="button" data-copy="+79137183971" aria-label="Скопировать номер Марии для MAX">Номер для MAX <svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg></button></div></article>
+        <article class="contact-person"><div class="person-top"><h3>Лариса</h3><a href="tel:+79513817117" class="phone-number">+7 951 381-71-17 <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></a></div><div class="messenger-links"><a href="https://t.me/+79513817117" target="_blank" rel="noopener noreferrer">Telegram <svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></a><a href="https://wa.me/79513817117" target="_blank" rel="noopener noreferrer">WhatsApp <svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></a><button type="button" data-copy="+79513817117" aria-label="Скопировать номер Ларисы для MAX">Номер для MAX <svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg></button></div></article>
+      </div>
+      <p class="contact-help">Для MAX сохраните номер в контакты и найдите нас в приложении. Если Telegram не открывает чат по номеру, напишите в WhatsApp или позвоните.</p>
+      <div class="footer-photo-strip" aria-hidden="true"><img src="assets/hands-small.webp" alt="" loading="lazy"><img src="assets/evening-small.webp" alt="" loading="lazy"><img src="assets/painting-small.webp" alt="" loading="lazy"><img src="assets/friends-small.webp" alt="" loading="lazy"><img src="assets/dance-small.webp" alt="" loading="lazy"></div>
+      <footer class="site-footer"><a class="brand" href="#top"><svg class="brand-mark" aria-hidden="true"><use href="#i-mountains"/></svg><span>Едем на Алтай!</span></a><p>Семейный лагерь «мама + ребёнок»<br>5–11 июня 2027 · Усадьба Ярцевых</p><a class="back-top" href="#top">Наверх <svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></a></footer>
+    </div></section>
+  </main>
+
+
+  <div class="scroll-navigation" id="scroll-navigation" hidden>
+    <button class="scroll-menu-toggle" id="scroll-menu-toggle" type="button" aria-label="Открыть навигацию по разделам" aria-expanded="false" aria-controls="scroll-nav"><span></span><span></span></button>
+    <nav class="scroll-nav" id="scroll-nav" aria-label="Быстрый переход по разделам" hidden>
+      <a href="#about">О лагере</a><a href="#program">Программа</a><a href="#day">Наш день</a><a href="#place">Где живём</a><a href="#memories">Наши встречи</a><a href="#cost">Стоимость</a><a href="#contacts">Контакты <svg class="icon" aria-hidden="true"><use href="#i-up-right"/></svg></a>
+    </nav>
+  </div>
+  <a class="scroll-top" id="scroll-top" href="#top" aria-label="Вернуться наверх" hidden><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+
+  <button class="video-launcher" type="button" data-video aria-haspopup="dialog" aria-controls="video-dialog"><span class="launcher-thumb"><img src="assets/video-poster.webp" alt="" width="48" height="64"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg></span><span class="launcher-label">Посмотрите видео<span>с нашей поездки <span class="film-duration">0:39</span></span></span></button>
+
+  <dialog class="video-dialog" id="video-dialog" aria-labelledby="video-title"><div class="video-dialog-heading"><h2 id="video-title">Наша поездка. Как это было.</h2><button class="dialog-close" type="button" data-close aria-label="Закрыть видео"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div><div class="video-stage"><video id="camp-video" controls playsinline preload="none" poster="assets/video-poster.webp" aria-label="Видео с нашей поездки на Алтай"></video><p class="video-error" hidden>Не удалось загрузить видео. <a href="assets/camp-film.mp4" download>Скачайте ролик</a> и посмотрите на устройстве.</p></div><p class="video-dialog-footer">Меньше минуты — и вы с нами на Алтае.</p></dialog>
+
+  <dialog class="photo-dialog" id="photo-dialog" aria-label="Просмотр фотографий"><div class="photo-dialog-top"><span class="photo-count"></span><button class="dialog-close" type="button" data-close aria-label="Закрыть фотографию"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div><div class="photo-dialog-stage"><button class="photo-prev" type="button" aria-label="Предыдущее фото"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button><img id="full-photo" alt=""><p class="photo-status photo-loading" role="status" hidden>Загружаем фото…</p><p class="photo-status photo-error" role="status" hidden>Не удалось загрузить фото. Попробуйте открыть его ещё раз.</p><button class="photo-next" type="button" aria-label="Следующее фото"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button></div><p class="photo-dialog-caption"></p></dialog>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
